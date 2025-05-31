@@ -1,0 +1,16 @@
+{
+  "name": "human-resources-hr-admin-template-bootstrap5-main",
+  "version": "1.0.0",
+  "description": "A point-of-sale admin template can help organize and track Human Resources (HR)  in a business.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
