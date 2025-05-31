@@ -32,7 +32,7 @@ header('Content-Type: application/json; charset=utf-8');
     $existing_employee = mysqli_fetch_assoc($check_result);
     $thumbnail = $existing_employee['thumbnail'];
 
-    $upload_dir = dirname(__DIR__) . tprofiles/';
+    $upload_dir = dirname(__DIR__) . '/assets/img/profiles/';
     error_log("Upload directory path: $upload_dir");
 
     if (!is_dir($upload_dir)) {
