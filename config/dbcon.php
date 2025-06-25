@@ -10,3 +10,12 @@ if (!$conn) {
     die("Connection Failed: " . mysqli_connect_error());
 }
 ?>
+
+
+<!-- PHP Intelephense
+PHP Server
+PHP DocBlocker
+PHP Debug
+PHP IntelliSense
+C:\xampp\php
+"php.validate.executablePath": "C:/xampp/php/php.exe", -->
